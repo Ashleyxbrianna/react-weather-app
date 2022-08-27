@@ -7,3 +7,8 @@
   font-size: 11px;
   margin: 10px 0;
 }
+
+.playlist {
+  border-radius: 40px;
+  margin-top: 30px;
+}
