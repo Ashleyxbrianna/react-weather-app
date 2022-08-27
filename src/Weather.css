@@ -1,10 +1,11 @@
 .Weather {
-  border: 1px solid #dadde1;
+  border: 1px solid #9ed2c6;
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
   padding: 16px;
 
   border-radius: 4px;
+  background-color: #9ed2c6;
 }
 
 .Weather h1 {
@@ -28,7 +29,7 @@
 
 .Weather .temperature {
   font-weight: bold;
-  color: black;
+  color: #ac7088;
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
@@ -41,11 +42,36 @@
 }
 
 .Weather .unit {
-  color: black;
+  color: #ac7088;
   font-size: 16px;
   font-weight: 400;
   position: relative;
   top: -34px;
   margin-left: 5px;
   line-height: 1;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #b1d7b4 !important;
+  border-color: #483838;
+  color: grey;
+}
+
+.btn-primary:hover {
+  background-color: #eae3d2 !important;
+  color: #748da6;
+  border-color: #eae3d2;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+
+.Weather .form-control {
+  background-color: #b1d7b4 !important;
+  border-color: #483838;
+  color: grey;
 }
